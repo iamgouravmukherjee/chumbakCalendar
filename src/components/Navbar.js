@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class Navbar extends Component {
+   state = {
+      least: 3,
+      highest: 5
+   }
    render() {
       //console.log("nabar props", this.props)
       const month = this.props.months.filter(month => {
@@ -15,10 +19,12 @@ class Navbar extends Component {
             <div className="appName mr-3">CALENDAR</div>
             <div className="appName d-flex">
                <div
-                  className="previousMonth"
+                  className={`previousMonth ${this.props.activeIndex === this.state.least ? "notAllowed" : ""}`}
                   onClick={() => this.props.previousMonth(this.props.activeIndex)}> > </div>
                <div className="text-uppercase px-3">{name}</div>
-               <div className="nextMonth" onClick={() => this.props.nextMonth(this.props.activeIndex)}>></div>
+               <div
+                  className={`nextMonth ${this.props.activeIndex === this.state.highest ? "notAllowed" : ""}`}
+                  onClick={() => this.props.nextMonth(this.props.activeIndex)}>></div>
             </div>
             {/* </Link> */}
          </div>

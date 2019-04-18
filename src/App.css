@@ -89,6 +89,11 @@ thead th {
   cursor: pointer;
 }
 
+.notAllowed {
+  color: #eaeaea !important;
+  cursor: not-allowed;
+}
+
 @media(min-width: 768px) {
   .formCard {
     max-width: 50%;
@@ -99,5 +104,6 @@ thead th {
   }
   table td {
     padding : 1.5rem 0.75rem !important; 
+    cursor: pointer;
   }
 }

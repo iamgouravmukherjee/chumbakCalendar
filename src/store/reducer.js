@@ -8,52 +8,45 @@ const initialState = {
                     "index": 1,
                     "days": [
                         {
-                            "date": 31,
+                            "date": 24,
                             "day": "Sunday",
                             "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 1,
+                            "date": 25,
                             "day": "Monday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": [
-                                {
-                                    id: 1522225587794462,
-                                    date: 1,
-                                    time: "7:30pm",
-                                    colour: "danger",
-                                    title: "meeting",
-                                    description: "dsjdaskd;laskl;"
-                                }
+                                
                             ]
                         },
                         {
-                            "date": 2,
+                            "date": 26,
                             "day": "Tuesday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 3,
+                            "date": 27,
                             "day": "Wednesday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 4,
+                            "date": 28,
                             "day": "Thursday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 5,
+                            "date": 1,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 6,
+                            "date": 2,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -64,43 +57,43 @@ const initialState = {
                     "index": 2,
                     "days": [
                         {
-                            "date": 7,
+                            "date": 3,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 8,
+                            "date": 4,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 9,
+                            "date": 5,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 10,
+                            "date": 6,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 11,
+                            "date": 7,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 12,
+                            "date": 8,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 13,
+                            "date": 9,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -111,43 +104,43 @@ const initialState = {
                     "index": 3,
                     "days": [
                         {
-                            "date": 14,
+                            "date": 10,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 15,
+                            "date": 11,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 16,
+                            "date": 12,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 17,
+                            "date": 13,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 18,
+                            "date": 14,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 19,
+                            "date": 15,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 20,
+                            "date": 16,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -158,43 +151,43 @@ const initialState = {
                     "index": 4,
                     "days": [
                         {
-                            "date": 21,
+                            "date": 17,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 22,
+                            "date": 18,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 23,
+                            "date": 19,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 24,
+                            "date": 20,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 25,
+                            "date": 21,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 26,
+                            "date": 22,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 27,
+                            "date": 23,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -205,43 +198,90 @@ const initialState = {
                     "index": 5,
                     "days": [
                         {
-                            "date": 28,
+                            "date": 24,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 29,
+                            "date": 25,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 30,
+                            "date": 26,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 1,
+                            "date": 27,
                             "day": "Wednesday",
+                            "enabled": true,
+                            "events": []
+                        },
+                        {
+                            "date": 28,
+                            "day": "Thursday",
+                            "enabled": true,
+                            "events": []
+                        },
+                        {
+                            "date": 29,
+                            "day": "Friday",
+                            "enabled": true,
+                            "events": []
+                        },
+                        {
+                            "date": 30,
+                            "day": "Saturday",
+                            "enabled": true,
+                            "events": []
+                        }
+                    ]
+                },
+                {
+                    "index": 6,
+                    "days": [
+                        {
+                            "date": 31,
+                            "day": "Sunday",
+                            "enabled": true,
+                            "events": []
+                        },
+                        {
+                            "date": 1,
+                            "day": "Monday",
                             "enabled": false,
                             "events": []
                         },
                         {
                             "date": 2,
-                            "day": "Thursday",
+                            "day": "Tuesday",
                             "enabled": false,
                             "events": []
                         },
                         {
                             "date": 3,
-                            "day": "Friday",
+                            "day": "Wednesday",
                             "enabled": false,
                             "events": []
                         },
                         {
                             "date": 4,
+                            "day": "Thursday",
+                            "enabled": false,
+                            "events": []
+                        },
+                        {
+                            "date": 5,
+                            "day": "Friday",
+                            "enabled": false,
+                            "events": []
+                        },
+                        {
+                            "date": 6,
                             "day": "Saturday",
                             "enabled": false,
                             "events": []
@@ -508,52 +548,45 @@ const initialState = {
                     "index": 1,
                     "days": [
                         {
-                            "date": 31,
+                            "date": 28,
                             "day": "Sunday",
                             "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 1,
+                            "date": 29,
                             "day": "Monday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": [
-                                {
-                                    id: 155558327794462,
-                                    date: 1,
-                                    time: "7:30pm",
-                                    colour: "danger",
-                                    title: "meeting",
-                                    description: "dsjdaskd;laskl;"
-                                }
+                                
                             ]
                         },
                         {
-                            "date": 2,
+                            "date": 30,
                             "day": "Tuesday",
-                            "enabled": true,
+                            "enabled": false,
                             "events": []
                         },
                         {
-                            "date": 3,
+                            "date": 1,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 4,
+                            "date": 2,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 5,
+                            "date": 3,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 6,
+                            "date": 4,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -564,43 +597,43 @@ const initialState = {
                     "index": 2,
                     "days": [
                         {
-                            "date": 7,
+                            "date": 5,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 8,
+                            "date": 6,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 9,
+                            "date": 7,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 10,
+                            "date": 8,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 11,
+                            "date": 9,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 12,
+                            "date": 10,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 13,
+                            "date": 11,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -611,43 +644,43 @@ const initialState = {
                     "index": 3,
                     "days": [
                         {
-                            "date": 14,
+                            "date": 12,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 15,
+                            "date": 13,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 16,
+                            "date": 14,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 17,
+                            "date": 15,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 18,
+                            "date": 16,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 19,
+                            "date": 17,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 20,
+                            "date": 18,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -658,43 +691,43 @@ const initialState = {
                     "index": 4,
                     "days": [
                         {
-                            "date": 21,
+                            "date": 19,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 22,
+                            "date": 20,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 23,
+                            "date": 21,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 24,
+                            "date": 22,
                             "day": "Wednesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 25,
+                            "date": 23,
                             "day": "Thursday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 26,
+                            "date": 24,
                             "day": "Friday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 27,
+                            "date": 25,
                             "day": "Saturday",
                             "enabled": true,
                             "events": []
@@ -705,43 +738,43 @@ const initialState = {
                     "index": 5,
                     "days": [
                         {
-                            "date": 28,
+                            "date": 26,
                             "day": "Sunday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 29,
+                            "date": 27,
                             "day": "Monday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 30,
+                            "date": 28,
                             "day": "Tuesday",
                             "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 1,
+                            "date": 29,
                             "day": "Wednesday",
-                            "enabled": false,
+                            "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 2,
+                            "date": 30,
                             "day": "Thursday",
-                            "enabled": false,
+                            "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 3,
+                            "date": 31,
                             "day": "Friday",
-                            "enabled": false,
+                            "enabled": true,
                             "events": []
                         },
                         {
-                            "date": 4,
+                            "date": 1,
                             "day": "Saturday",
                             "enabled": false,
                             "events": []

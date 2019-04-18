@@ -23,7 +23,7 @@ class ViewEvent extends Component {
                         <div key={event.id} className="card formCard">
                             <div className="card-body">
                                 <div className="d-flex justify-content-between">
-                                    <h5 className="card-title text-uppercase">{event.title} <span className="text-secondary">({event.time})</span></h5>
+                                    <h5 className="card-title text-uppercase">{event.title} @ <span className="text-secondary">({event.time})</span></h5>
                                     <button
                                         type="button"
                                         className="close"

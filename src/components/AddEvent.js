@@ -55,7 +55,7 @@ class AddEvent extends Component {
                                 name={this.props.action === "edit" ? "edit" : "submit"}
                                 type="submit"
                                 className="btn btn-primary mr-1">
-                                {this.props.action === "edit" ? "edit" : "submit"}
+                                {this.props.action === "edit" ? "Edit" : "Submit"}
                             </button>
                             <button
                                 name="close"
