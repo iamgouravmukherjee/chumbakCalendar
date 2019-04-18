@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 8;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0 3px;
+  align-items: center;
+}
+
+.z-depth-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.appName {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 2.5rem;
+  color: #828282;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+thead th {
+  border-top: none !important;
+}
+
+.addEvent {
+  display: none;
+}
+
+.eventButton {
+  width: max-content;
+  border-radius: 50%;
+  border: none;
+  font-size: 1rem;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.calendarDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 93;
+  background-color: rgba(0, 0, 0, .64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formCard {
+  min-width: 50%;
+}
+
+.badge {
+  width: max-content;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.disabled {
+  color: #6c757d;
+  background-color: #eaeaea;
+  cursor: not-allowed;
+}
+
+.previousMonth {
+  transform: rotate(180deg);
+  position: relative;
+  top: 9px;
+  cursor: pointer;
+}
+
+.nextMonth {
+  position: relative;
+  left: -3px;
+  cursor: pointer;
+}
+
+@media(min-width: 768px) {
+  .formCard {
+    max-width: 50%;
+  }
+  table {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  table td {
+    padding : 1.5rem 0.75rem !important; 
+  }
+}
